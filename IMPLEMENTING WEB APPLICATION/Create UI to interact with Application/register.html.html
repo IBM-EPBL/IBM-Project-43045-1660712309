@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Register</title>
+       
+    </head><style>
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    width: 100%;
+    }
+     
+    input[type=text], input[type=password]{
+    width:20%;
+    padding:7px 10px;
+    margin: 10px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+     
+    button{
+    background-color:#000000;
+    width: 14%;
+    padding: 9px 5px;
+    margin:10px 0px 0px 35px;
+    cursor:pointer;
+    border:none;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    }
+     
+    button:hover{
+    opacity:0.8;
+    }
+     
+    #un,#ps{
+    font-family:'Lato', sans-serif;
+    color: rgb(2, 2, 2);
+    }
+ 
+ 
+    #container{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width:600;
+        height: 300px;
+        text-align: center;
+    }
+
+    img{
+margin-top:20px;
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+    }
+</style>
+    <body background="images/qq.png">
+        <a href="index.html">
+            <img src="https://img.freepik.com/free-vector/sign-concept-illustration_114360-125.jpg?w=2000">
+        </a>
+        <form>
+            <h2>Registration</h2>
+
+            <label for="r1" id="f_n">First Name</label>
+            <input type="text" name="fname" id="r1" placeholder="FirstName"><br>
+
+            <label for="r2" id="l_n">Last Name</label>
+            <input type="text" name="lname" id="r2" placeholder="LastName"><br>
+
+            <label for="r4" id="p_n">Phone No </label>
+            <input type="text" name="pno" id="r4" placeholder="10 characters" ><br>
+
+            <label for="r3" id="u_i">User ID</label>
+            <input type="text" name="uid" id="r3" placeholder="Email ID or UserName"><br>
+
+            <label for="r5" id="pass">Password</label>
+            <input type="password" name="passwd" id="r5" placeholder="8 characters"><br>
+
+            <label for="r6" id="re_pass">Repassword</label>
+            <input type="password" name="repss" id="r6" placeholder="REpassword"><br>
+            
+            <a href="login.html">
+                <button type="button" value="submit"> Login </button>
+            </a>
+            <button type="submit" value="submit"  id="button" onclick="alert(' Your Registration is Successfully')">Register</button>
+        
+        </form>
+
+    </body>
+</html>
